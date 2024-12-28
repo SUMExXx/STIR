@@ -6,7 +6,7 @@ document.getElementById('runScriptButton').addEventListener('click', async funct
 
     try {
         // Simulate an API call to fetch the data
-        const response = await fetch('http://localhost:8000/run', {
+        const response = await fetch('http://172.31.18.56:8000/run', {
                 method: 'POST',  // Specify POST method
                 headers: {
                 'Content-Type': 'application/json',  // Specify that we're sending JSON data
