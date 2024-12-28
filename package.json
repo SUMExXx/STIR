@@ -1,0 +1,20 @@
+{
+    "name": "my-website",
+    "version": "1.0.0",
+    "description": "A simple website served by Node.js",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js"
+    },
+    "keywords": [
+        "node",
+        "express",
+        "static",
+        "website"
+    ],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.18.2"
+    }
+}
